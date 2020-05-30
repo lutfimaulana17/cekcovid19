@@ -1,0 +1,289 @@
+@import '~antd/dist/antd.css';
+@import '~font-awesome/css/font-awesome.min.css';
+
+.menuBar{
+  padding: 5px 20px;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: auto;
+  box-shadow: 0 0 30px #f3f1f1;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.coronaIcon{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.navTitle{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform    : translate(-50%, -50%); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.slider{
+    margin-top: 60px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.item-slider {
+    border-radius: 10px;
+}
+
+.item-slider img{
+    border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,.3);
+    margin: auto;
+}
+
+.main{
+    margin-top: 10px;
+    margin-bottom: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.home-main{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 3px 10px 10px 3px;
+    padding: 5px;
+    box-shadow: 0 0 12px 0 #f0eded;
+    border-right: solid 5px #94b1ff;
+}
+
+.title-home{
+    font-weight: bold;
+    display: block;
+}
+
+.total-positive{
+    height: 90px;
+    width: 90px;
+    border: solid 5px #ed3833;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.total-sembuh{
+    height: 90px;
+    width: 90px;
+    border: solid 5px #5aca98;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.total-meninggal{
+    height: 90px;
+    width: 90px;
+    border: solid 5px #7f7f7f;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.total-positive span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.total-sembuh span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.total-meninggal span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-total span{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 90px;
+}
+
+.main-indonesia{
+    margin-bottom: 10px;
+}
+
+.item-provinsi{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 0 0 12px 0 #f0eded;
+}
+
+.provisiName{
+    margin-left: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.title-value-province{
+    text-align: center;
+}
+
+.total-province-positive{
+    height: 50px;
+    width: 50px;
+    border: solid 3px #ed3833;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+    margin: auto;
+}
+
+.total-province-positive span{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.total-province-sembuh{
+    height: 50px;
+    width: 50px;
+    border: solid 3px #5aca98;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+    margin: auto;
+}
+
+.total-province-sembuh span{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.total-province-meninggal{
+    height: 50px;
+    width: 50px;
+    border: solid 3px #7f7f7f;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+    margin: auto;
+}
+
+.total-province-meninggal span{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-provinsi{
+    margin-top: 5px;
+    padding: 5px;
+    border-bottom: solid 0.2px rgb(238, 225, 225);
+}
+
+.container-total-provinsi{
+    border-right: solid 0.2px rgb(238, 225, 225);
+}
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    border-top: solid 1px #e8e8e8;
+    overflow: auto;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+    background-color: rgb(255, 255, 255);
+}
+
+.item-footer{
+    height: 60px;
+    text-align: center;
+}
+
+.footer-icon{
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.item-footer span{
+    color: grey;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-menu{
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 80px;
+}
+
+.item-chart{
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 #f0eded;
+    margin-top: 10px;
+}
+
+.title-item-chart{
+    font-weight: bold;
+    margin-top: 30px;
+    display: block;
+}
+
+.chart-desc-total{
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.chart-desc-total-prov{
+    font-weight: bold;
+    display: block;
+}
+
+.search-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 12px 0 #f0eded;
+}
+
+.title-link{
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.btn-link{
+    text-align: right;
+    line-height: 40px;
+}
+
+.icon-link{
+    line-height: 40px;
+}
+
+.fab-item{
+    background-color: #25d366 !important;
+}
